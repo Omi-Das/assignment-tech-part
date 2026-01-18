@@ -40,9 +40,9 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 }
 
 .back-container{
-    background-image: url("./images/hero-circle.png"), url("./images/hero-bg.png"); 
-    background-repeat: no-repeat, no-repeat;
-    background-position: center, center; 
+    background-image: url("./images/hero-bg.png") ,         url("./images/hero-circle.png");
+    /* background-repeat: no-repeat, no-repeat; */
+    /* background-position: center, center;  */
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
@@ -50,4 +50,79 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     text-align: center;
     width: 1600px;
     height: 760px;
+     padding: 0;
+       background-size: auto, cover;
+}
+.new{
+    width: 75px;
+    height: 38px;
+    background-color: #00FF88;
+    padding: 8px 16px 8px 16px;
+    color:#1A0B2E;
+    font-size: 18px;
+    font-weight: 600px;
+    margin: 113px 648px 610px 877px;
+     margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 1000px;
+}
+.img1{
+    height: 175px;
+    width:117px;
+    margin-bottom: 40px;
+    /* margin-top: 101px; */
+}
+.back-title{
+    margin-bottom: 8px;
+    font-size: 66px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.back-info{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.back-btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 8px;
+    margin-bottom:101px ;
+}
+.btn-1{
+    width: 201px;
+    height: 44px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    color:#ffffff;
+    border-radius:1000px;
+    border:none;
+    display: flex;
+    /* gap: 1px; */
+    font-style: 600;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px 20px 12px 20px;
+}
+.btn-2{
+    width:147px;
+    height: 44px;
+    background-color: transparent;
+    color:#ffffff;
+    border-radius:1000px;
+    display: flex;
+    gap: 2px;
+    font-style: 600;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    align-items: center;
+     padding: 12px 20px 12px 20px;
+     border: 1px solid #00FF88;
+
 }
