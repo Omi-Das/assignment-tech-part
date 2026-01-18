@@ -40,5 +40,14 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 }
 
 .back-container{
-    
+    background-image: url("./images/hero-circle.png"), url("./images/hero-bg.png"); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: center, center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    width: 1600px;
+    height: 760px;
 }
