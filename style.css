@@ -8,7 +8,7 @@
     justify-content: space-between;
     background-color: #412567;
     align-items: center;
-    width: 1600px;
+    width: 1538px;
     height: 82px;
 }
 .nav-link{
@@ -39,21 +39,32 @@
 background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
 
+
 .back-container{
-    background-image: url("./images/hero-bg.png") ,         url("./images/hero-circle.png");
-    /* background-repeat: no-repeat, no-repeat; */
-    /* background-position: center, center;  */
+    background-color: #1a083a; 
+    background-image: url("./images/hero-circle.png"), url("./images/hero-bg.png"); 
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 100px, center center; 
+    background-size: auto,cover; 
     display: flex; 
     flex-direction: column; 
-    justify-content: center; 
+    justify-content: center;  
     align-items: center; 
-    text-align: center;
-    width: 1600px;
+    text-align: center;  
+    width: 100%;
+    max-width: 1538px;
     height: 760px;
-     padding: 0;
-       background-size: auto, cover;
+    padding: 0;
 }
-.new{
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 70px;
+}
+
+.back-container .new{
     width: 75px;
     height: 38px;
     background-color: #00FF88;
@@ -61,22 +72,28 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     color:#1A0B2E;
     font-size: 18px;
     font-weight: 600px;
-    margin: 113px 648px 610px 877px;
-     margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 0px 648px 0px 877px;
+    margin-top: 370px;
     border-radius: 1000px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 .img1{
-    height: 175px;
-    width:117px;
-    margin-bottom: 40px;
-    /* margin-top: 101px; */
+    height: 175px; 
+    width: auto; 
+    margin-bottom: 370px;
+    margin-left: 695px;
+    justify-content: center; 
+    align-items: center; 
 }
+
 .back-title{
     margin-bottom: 8px;
     font-size: 66px;
     font-weight: bold;
     color: #ffffff;
+    /* margin-top: 20px; */
 }
 .back-info{
     font-size: 16px;
@@ -90,7 +107,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     text-align: center;
     align-items: center;
     gap: 8px;
-    margin-bottom:101px ;
+    margin-bottom:151px ;
 }
 .btn-1{
     width: 201px;
