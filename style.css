@@ -386,13 +386,20 @@ line-height: 20px;
     max-width: 800px;
     padding: 0 20px;
 }
-hr{
-    color: aliceblue;
-}
+
 .about-cta {
     margin-bottom: 60px;
 }
+.about-container hr{
+    /* border: none;
+    border-top: 1px solid #021220;  */
+    border: 1px solid var(--#FFFFFF, rgba(255, 255, 255, 1));
+    opacity: 0.1;
+    margin: 40px auto 20px auto; 
+    max-width: 1200px;
+    width: 84%;
 
+}
 .stats-container {
     display: flex;
     justify-content: center;
