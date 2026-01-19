@@ -38,14 +38,33 @@
     border-radius: 10000px;
 background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000;
+}
 
-
-.back-container{
+.back-container {
     background-color: #1a083a; 
-    background-image: url("./images/hero-circle.png"), url("./images/hero-bg.png"); 
+    background-image: 
+        url("./images/hero-circle.png"), 
+        url("./images/hero-bg.png");
+        /* url("./images/sound-wave-left.png"),
+        url("./images/sound-wave-right.png");  */
     background-repeat: no-repeat, no-repeat;
-    background-position: center 100px, center center; 
-    background-size: auto,cover; 
+     /* no-repeat, no-repeat; */
+    background-position: 
+        center 100px, 
+        center center;
+        /* left center,
+        right center;  */
+    background-size: auto, cover;
+     /* auto auto, auto auto;  */
     display: flex; 
     flex-direction: column; 
     justify-content: center;  
@@ -56,90 +75,113 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     height: 760px;
     padding: 0;
 }
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
-.back-container .new{
+.logo-wrapper {
+    position: relative;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.back-container .new {
+    position: absolute;
+    top: 0;
+    right: 0;
     width: 75px;
     height: 38px;
     background-color: #00FF88;
-    padding: 8px 16px 8px 16px;
-    color:#1A0B2E;
-    font-size: 18px;
-    font-weight: 600px;
-    margin: 0px 648px 0px 877px;
-    margin-top: 370px;
+    padding: 8px 16px;
+    color: #1A0B2E;
+    font-size: 14px;
+    font-weight: 600;
     border-radius: 1000px;
-    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.img1{
+
+.img1 {
     height: 175px; 
     width: auto; 
-    margin-bottom: 370px;
-    margin-left: 695px;
-    justify-content: center; 
-    align-items: center; 
+    /* transform: translateX(10px);  */
 }
 
-.back-title{
+.back-title {
     margin-bottom: 8px;
     font-size: 66px;
     font-weight: bold;
     color: #ffffff;
-    /* margin-top: 20px; */
+    margin-top: 0;
 }
-.back-info{
-    font-size: 16px;
+
+.back-info {
+    font-size: 12px;
     color: #ffffff;
     font-weight: 400;
     margin-bottom: 24px;
+    max-width: 400px;
 }
-.back-btn{
+
+.back-btn {
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
     gap: 8px;
-    margin-bottom:151px ;
 }
-.btn-1{
+
+.btn-1 {
     width: 201px;
     height: 44px;
-    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
-    color:#ffffff;
-    border-radius:1000px;
-    border:none;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+    color: #ffffff;
+    border-radius: 1000px;
+    border: none;
     display: flex;
-    /* gap: 1px; */
-    font-style: 600;
-    font-size: 14px;
     font-weight: 600;
+    font-size: 14px;
     line-height: 19px;
     align-items: center;
     justify-content: space-around;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 20px;
+    cursor: pointer;
 }
-.btn-2{
-    width:147px;
+
+.btn-2 {
+    width: 147px;
     height: 44px;
     background-color: transparent;
-    color:#ffffff;
-    border-radius:1000px;
+    color: #ffffff;
+    border-radius: 1000px;
     display: flex;
-    gap: 2px;
-    font-style: 600;
-    font-size: 14px;
+    gap: 8px;
     font-weight: 600;
+    font-size: 14px;
     line-height: 19px;
     align-items: center;
-     padding: 12px 20px 12px 20px;
-     border: 1px solid #00FF88;
-
+    padding: 12px 20px;
+    border: 1px solid #00FF88;
+    cursor: pointer;
 }
+
+.back-btn button img {
+    height: 16px;
+    width: auto;
+}
+
+/* .back-btn button span p {
+    margin: 0;
+} */
+
+.part
