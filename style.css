@@ -615,13 +615,17 @@ h2 {
 .footer .f-1{
     color: #ffffff;
     display: flex;
-    gap:  8px;
-    height: 24px;
-    weight:24px;
+    gap: 8px;
+    
 }
 
 
 .footer p{
     color: #ffffff;
+    font-size: 16px;
+}
+.copy p{
+    color: #ffffff;
+    font-size: 16px;
     margin-top: 32px;
 }
