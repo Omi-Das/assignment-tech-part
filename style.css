@@ -511,7 +511,7 @@ hr{
     text-align: center;
     text-align: center;
     max-width: 1600px;
-    max-height: 1276px;
+    max-height:auto;
     background: rgba(26, 11, 46, 1);
 }
 h2 {
@@ -529,6 +529,9 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
+}
+.clng{
+   padding-bottom: 120px;
 }
 
 .clng h1 {
