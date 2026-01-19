@@ -591,3 +591,37 @@ h2 {
     padding: 10px;
     cursor: pointer;
 }
+.footer{
+    width: 1600px;
+    height: 412px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:120px ;
+    padding-bottom: 232px;
+   background: rgb(52, 28, 84);
+   background-image: url("./images/footer-bg.png");
+   background-repeat: no-repeat;
+
+}
+.footer .footer-image{
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    align-items:center;
+    margin-top: 32px;
+}
+.footer .f-1{
+    color: #ffffff;
+    display: flex;
+    gap:  8px;
+    height: 24px;
+    weight:24px;
+}
+
+
+.footer p{
+    color: #ffffff;
+    margin-top: 32px;
+}
