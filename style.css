@@ -514,19 +514,77 @@ hr{
     max-height: 1276px;
     background: rgba(26, 11, 46, 1);
 }
-h2{
-    /* margin-top: 120px; */
+h2 {
     padding-top: 120px;
     padding-bottom: 40px;
- font-size: 48px;
- font-weight: bold;
- line-height:58px;
- color: #ffffff;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+    color: #ffffff;
 }
-.youTube{
+
+.youTube {
     display: flex;
-    gap:30px;
-    /* padding-left: 200px; */
+    gap: 30px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 120px;
+}
+
+.clng h1 {
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.clng .clng-main {
+    display: flex;
+    gap: 24px;
+    background: rgb(48, 23, 81); 
+    margin: 0 auto;
+    justify-content: flex-start; 
+    align-items: center; 
+    text-align: left; 
+    padding: 40px; 
+    border-radius: 10px; 
+    width: fit-content; 
+    max-width: 1000px; 
+}
+
+.m1 img {
+    
+    border-radius: 50%; 
+    width: 200px;
+    height: auto;
+}
+
+.m2 h2 {
+    padding-top: 0;
+    padding-right: 0; 
+    margin-bottom: 16px;
+    font-size: 32px; 
+    color: #ffffff;
+}
+
+.m2 p {
+    color: #ffffff;
+    line-height: 1.5;
+    margin-bottom: 24px;
+    max-width: 600px; 
+}
+
+.m2-img{
+    display: flex;
+    gap: 8px;
+}
+.m2-img .m2-1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(83, 60, 114, 1);
+    padding: 10px;
+    cursor: pointer;
 }
