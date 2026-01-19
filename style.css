@@ -260,7 +260,7 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     margin-bottom: 24px;
 }
 
-.back-container .new {
+.back-container .badge {
     position: absolute;
     top: -50px;
     right: 0;
@@ -504,4 +504,28 @@ hr{
 .grid1 .r{
     grid-column: span 2;
     grid-row: span 1;
+}
+.featured{
+    /* margin-top: 120px; */
+    justify-content: center;
+    text-align: center;
+    text-align: center;
+    max-width: 1600px;
+    max-height: 1276px;
+    background: rgba(26, 11, 46, 1);
+}
+h2{
+    /* margin-top: 120px; */
+    padding-top: 120px;
+    padding-bottom: 40px;
+ font-size: 48px;
+ font-weight: bold;
+ line-height:58px;
+ color: #ffffff;
+}
+.youTube{
+    display: flex;
+    gap:30px;
+    /* padding-left: 200px; */
+    justify-content: center;
 }
