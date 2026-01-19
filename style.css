@@ -39,6 +39,9 @@
     border-radius: 10000px;
 background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
+.menu-icon{
+    display: none;
+}
 
 .back-container {
     background-color: #1a083a; 
@@ -658,9 +661,9 @@ h2 {
 
 @media screen and (max-width: 576px) {
     .nav-container {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
-        padding: 10px 20px;
+        padding: 30px 30px;
         width: 572;
     }
     .nav-link {
@@ -682,8 +685,11 @@ h2 {
     .btn {
         display: none;
     }
-    .menu-icon {
+     .menu-icon {
         display: block;
+        color: #ffffff;
+        font-size: 24px;
+        cursor: pointer;
     }
     .nav-link.show {
         display: flex;
