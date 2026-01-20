@@ -744,12 +744,14 @@ h2 {
         flex-direction: row;
         height: auto;
         padding: 30px 30px;
-        width: 572;
+        max-width: 572;
+        /* width: 81%; */
+
     }
     .nav-link {
         display: none;
         flex-direction: column;
-        width: 100%;
+        /* width: 100%; */
         position: absolute;
         top: 60px;
         left: 0;
@@ -785,16 +787,17 @@ h2 {
         background-position: center 50px, center center;
     }
     .logo-wrapper {
-        width: 200px;
-        height: 300px;
+        width: 50px;
+        height: 270px;
     }
     .back-container .badge {
-        top: -22px;
-        right: -85px;
+        top: -42px;
+        right: -145px;
     }
     .img1 {
-        height: 120px;
-        margin-top: -30px;
+        width: 150px;
+        height: 150px;
+        margin-top: -40px;
     }
     .back-title {
         font-size: 44px;
@@ -803,6 +806,10 @@ h2 {
     .back-info {
         max-width: 90%;
         font-size: 14px;
+    }
+    .back-btn{
+        display: flex;
+        gap:12px;
     }
     .btn-1,.btn-2 {
     transition: transform 0.3s ease;
