@@ -111,6 +111,12 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     height: 175px; 
     width: auto; 
     align-items: center;
+    animation: spin 2.5s ease-in-out .1s infinite alternate ;
+}
+@keyframes spin{
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(100deg);}
+    100%{transform: rotate(360deg);}
 }
 
 .back-title {
@@ -176,13 +182,6 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
     width: auto;
 }
 
-/* .back-btn button span p {
-    margin: 0;
-} */
-
-/* .part{
-
-} */
 
 * {
     padding: 0;
@@ -291,7 +290,6 @@ background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(2
 .img1 {
     height: 175px;
     width: auto;
-    /* transform: translateY(10px); */
     margin-top: -80px;
 }
 
@@ -817,17 +815,6 @@ h2 {
    .btn-1,.btn-2:hover {
     transform: scale(1.05); 
   }
-    /* .back-btn {
-        flex-direction: column;
-        gap: 16px;
-        width: 100%;
-        padding: 0 20px;
-    }
-    .btn-1, .btn-2 {
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto;
-    } */
     .back-btn button img {
         height: 14px;
     }
@@ -971,14 +958,8 @@ h2 {
     margin: 0 auto;
     background-color:  rgb(36, 7, 73);
     background-image: url("./images/footer-bg.png");
-    /* background-color: rgb(52, 28, 84); 
-    background-repeat: no-repeat;
-    background-position: auto auto;
-    background-size: cover; */
       background-position: center, center;
-     /* background-position: 23 38, right bottom; */
     background-repeat: no-repeat;
-      /* size control */
    background-size: contain, 500px auto;
    vertical-align: middle; 
 }
